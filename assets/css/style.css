@@ -295,11 +295,11 @@ input[type=text] {
     margin: 5vh 0 5vh 30vw;
     padding: 2.5vh 13vw;
     border: 2px solid #F7F7F7;
-    box-shadow: 1px 1px 1px 1px lightgrey;
+    box-shadow: 0px 0px 10px 10px #F7F7F7;
     border-radius: 7px;
     font-size: 1.5em;
 }
-
+/* BUTTON */
 footer a {
     background: #ff3571;
     color: #fff;
@@ -311,6 +311,11 @@ footer a {
     font-weight: 400;
 }
 
+footer a:hover {
+    background: linear-gradient(90deg, #ff3571 0%,#3C30FF  100%); 
+}
+
+/* CREATED WITH */
 footer span {
     margin: 0 0 0 5vw;
 }
