@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 
-/* FONT
+/* FONTS
 
 font-family: 'Roboto', sans-serif; 
 
@@ -14,19 +14,15 @@ COLORS
 
 #0b0c17 / #ff3571 / #dddddd / #3C30FF / #FFF / #000
 
-*/
-
-/*======================
+=======================
     GENERAL STYLES
 =======================*/
 
 body {
     font-family: 'Roboto', sans-serif; 
-    /* scroll-behavior: smooth; */
-    /* width: 50vw; */
-    /* margin: 10vw; */
 }
 
+/* How to become a better designer? */
 h1 {
     font-size: 5em; 
     font-weight: 900;
@@ -52,6 +48,8 @@ h5 {
     margin: 30vh 0 1vw 15vw;
 }
 
+/* Are you ready? Let’s go!! 
+Do you like this challenge?*/
 h4 {
     font-size: 3em; 
     font-weight: 900;
@@ -96,27 +94,29 @@ header section img:last-of-type {
     100% {top: 50px;}
 }
 
-nav {
-    /* display: flex;
-    align-items: flex-start; */
-    /* margin: 5vh 3vw; */
-}
-
 nav span:nth-of-type(1):before {
-    content: url("../img/Lev3_2_Project_css-vertiefung_designer-challenge/icons8-elefant-50.png");
-    /* margin: 10vh 1vw 0 2vw; */
+    /* content: url("../img/Lev3_2_Project_css-vertiefung_designer-challenge/logo.svg"); */
     margin-top: 5vh;
 }
 
+/* Elephant Logo */
+header section img {
+    width: 3%;
+    margin: 0vh 0 0 2vw;
+    display: inline;
+    position: fixed;
+}
+
+/* TheDesignProject */
 nav span:nth-of-type(1) {
     font-size: 1.5em;
     display: flex;
     font-weight: 900;
-    margin-left: 3vw;
+    margin: 0vh 0 0 6vw ;
 }
 
+/* by a WebDesigner */
 nav span:nth-of-type(2) {
-    /* display: inline-block; */
     font-size: 0.7em;
     margin-left: 6vw;
 
