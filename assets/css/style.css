@@ -22,7 +22,6 @@ COLORS
 
 body {
     font-family: 'Roboto', sans-serif; 
-    background-color: #F7F7F7;
     /* scroll-behavior: smooth; */
     /* width: 50vw; */
     /* margin: 10vw; */
@@ -141,19 +140,148 @@ main p {
     line-height: 2em;
 }
 
+table {
+    border: none;
+    width: 55%;
+    margin: 0 0 0 25vw;
+    font-family: 'Roboto', sans-serif; 
+    margin: 30vh 25vw;
+    line-height: 2em;
+}
+
+thead {
+    border: 1px solid #000;
+    font-weight: 900;
+    padding: 0 1vw 0em;
+}
+
+th, td {
+    padding: 0 5px 0 30px;
+}
+
+.none {
+    color: #F7F7F7;
+}
+
+.explainingChallenge {
+    text-align: center;
+    font-size: 1.5em;
+    width: 50%;
+    margin: 0 0 20vh 25vw;
+}
+
+.number {
+    font-size: 4em;
+    font-weight: 900;
+    color: rgba(0, 0, 0, 0.2);
+    display: block;
+}
+
+main article { 
+    background-size: 100%;
+    height: 50vh;
+}
+
+main article:nth-of-type(1) img,
+main article:nth-of-type(2) img,
+main article:nth-of-type(3) img,
+main article:nth-of-type(4) img {
+    width: 30%;
+    display: flex;
+}
+
 /*=========== ARTICLE 1 ===========*/
 
-main article img{
-    width: 2%;
+/* 01 */
+.number:nth-of-type(1){
+    margin: 0 0 10vh 16vw;
 }
 
-main article h3:nth-of-type(1) {
-    display: inline;
-    color: red;
-    margin: 0 1vw;
+main article:nth-of-type(1){
+    display: flex;
+    margin: 0 0 0 1vw;
 }
 
+main article:nth-of-type(1) h3{
+    font-size: 1.5em;
+    margin: 0 0 0 16vw;
+    width: 100%;
+    display: block;
+    line-height: 5vh;
+}
 
+main article:nth-of-type(1) img {
+    margin: 0 0 0 15vw;
+}
+/*=========== ARTICLE 2 ===========*/
+
+/* 02 */
+.number:nth-of-type(2){
+    margin: 0 0 10vh 16vw;
+}
+
+main article:nth-of-type(2){
+    display: flex;
+    margin: 0 0 0 1vw;
+}
+
+main article:nth-of-type(2) h3{
+    font-size: 1.5em;
+    margin: 0 0 0 16vw;
+    width: 100%;
+    display: block;
+    line-height: 5vh;
+}
+
+main article:nth-of-type(2) img {
+    margin: 0 0 0 0;
+}
+/*=========== ARTICLE 3 ===========*/
+
+/* 03 */
+.number:nth-of-type(3){
+    margin: 0 0 10vh 16vw;
+}
+
+main article:nth-of-type(3){
+    display: flex;
+    margin: 0 0 0 1vw;
+}
+
+main article:nth-of-type(3) h3{
+    font-size: 1.5em;
+    margin: 0 0 0 16vw;
+    width: 100%;
+    display: block;
+    line-height: 5vh;
+}
+
+main article:nth-of-type(3) img {
+    margin: 0 0 0 15vw;
+}
+/*=========== ARTICLE 4 ===========*/
+
+/* 04 */
+.number:nth-of-type(4){
+    margin: 0 0 10vh 16vw;
+}
+
+main article:nth-of-type(4){
+    display: flex;
+    margin: 0 0 0 1vw;
+}
+
+main article:nth-of-type(4) h3{
+    font-size: 1.5em;
+    margin: 0 0 0 16vw;
+    width: 100%;
+    display: block;
+    line-height: 5vh;
+}
+
+main article:nth-of-type(4) img {
+    margin: 0 0 0 0;
+}
 /*======================
         FOOTER
 =======================*/
@@ -167,13 +295,10 @@ input[type=text] {
     margin: 5vh 0 5vh 30vw;
     padding: 2.5vh 13vw;
     border: 2px solid #F7F7F7;
+    box-shadow: 1px 1px 1px 1px lightgrey;
     border-radius: 7px;
     font-size: 1.5em;
 }
-
-/* footer div {
-
-} */
 
 footer a {
     background: #ff3571;
