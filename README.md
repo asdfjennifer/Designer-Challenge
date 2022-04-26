@@ -3,18 +3,20 @@
 
 new project // 22-04-2022
 
+new:
+- Newsletter-Formular
+- @keyframes Animation
 
 Übungen zu:
-+ Keyframes Animation
-+ Bild auf Bild
-+ JS Overlay
-
+- Forms
+- Input
+- Flexbox
 Ergebnis: https://asdfjennifer.github.io/Designer-Challenge/
 
 Verwendete Technologien:
 
-HTML
-CSS
-JS (tried my best)
-
+- HTML
+- CSS
+- JS
+- 
 love, Jenni
