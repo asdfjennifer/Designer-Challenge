@@ -18,5 +18,5 @@ Verwendete Technologien:
 - HTML
 - CSS
 - JS
-- 
+
 love, Jenni
