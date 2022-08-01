@@ -19,4 +19,5 @@ Verwendete Technologien:
 - CSS
 - JS
 
-love, Jenni
+
+![Kopie von screencapture](https://user-images.githubusercontent.com/98667941/182249935-e582e4f9-43dc-4dd7-8605-2fe5498f42d2.png)
